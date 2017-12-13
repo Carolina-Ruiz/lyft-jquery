@@ -1,0 +1,28 @@
+.cero {
+	background: #C8007B;
+	height: 100vh;
+	padding: 160px 0 0 124px;
+	width: 100vh;
+}
+
+.uno {
+	background-image: url(../img/lyft.jpg); 
+	/*background: cover;*/
+	height: 100vh;
+	width: 100vh;
+}
+
+.radius {
+	border-radius: 1em;
+	margin: 43px 0 0 65px;
+}
+.modal {
+	/*padding:  0 0 0  0;
+	margin: 8px 0 0 8px;*/
+}
+
+#ex1 {
+	height: 14em;
+/*	padding:  9px 0 0 10px;*/
+	width: 20em;
+}

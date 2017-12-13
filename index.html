@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Lyft</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="columns is-mobile cero">
+		<div>
+			<figure class="image is-128x128">
+  				<img src="assets/img/logo-white.png">
+			</figure>
+		</div>
+	</div> 
+	<div class="columns is-mobile uno">
+		<div>
+			<a class="button radius">LOG IN</a>
+			<a class="button radius" href="#ex1" rel="modal:open">SING UP</a>
+			<!--<a href="#ex1" rel="modal:openclass="button is-rounded radius">SING UP</a>-->
+	</div>
+	<section>
+		<!--modal-->
+		<div class="columns is-mobile">
+			<div class="column"> 
+				<div id="ex1" class="modal">
+					
+						<div class="column">
+							<h6 class="title">Sing Up</h6>
+						</div>
+					<div class="columns is-mobile">
+						<div class="column is-6">
+							<select id="select">  
+								<option value="value0">País</option>
+								<option value="value1">Chile</option>
+					             <option value="value2">Perú</option>
+					             <option value="value3">Bolivia</option> 
+					        </select>
+						</div>
+						<div class="column is-6">
+							<div class="field">
+								<div class="control">
+								    <input class="input is-danger" type="text" placeholder="Danger input">
+							 	</div>
+							</div>
+						</div>
+						<!--<p><a href="#ex1" rel="modal:open">Open Modal</a></p>-->
+						<div class="columns is-mobile">
+							<div class="column">
+								<a class="button is-danger is-outlined">Next</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+
