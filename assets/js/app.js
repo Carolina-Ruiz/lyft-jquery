@@ -1,10 +1,22 @@
 $(document).ready(function(){
-	('.uno').hidde(); 
-        $(".cero").fadeOut(1500);
-    },3000);
+	$('.uno').hide();
+	setTimeout(function(){
+		$('.cero').fadeOut(1500);
+		},3000);
+	setTimeout(function(){
+		$('.uno').fadeIn(1500);
+	})
 
-    setTimeout(function() {
-        $(".uno").fadeIn(1500);
-    },3000);
+	$('#btn').click(code) {
+	function code() {
+	  var code = "";
+	  var str = "123456789";
+	  for (var i = 0; i < 3; i++) {
+	  	code += str.charAt(Math.floor(Math.random() * str.length));
+	  }
+	  return code;
+	}
 
+	alert(code());
+	}
 })
